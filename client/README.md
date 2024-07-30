@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# EnvMoon Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EnvMoon Playground** is a browser-based Integrated Development Environment (IDE) that supports more than 10 programming languages. It allows users to create, compile, and run code directly from their browser. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Support for multiple programming languages.
+- Browser-based IDE with real-time code execution.
+- User authentication with OAuth.
+- Interactive terminal using monaco.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the Repository**
+
+   ```bash
+   https://github.com/mohitthakur9901/EnvMoon-Playground.git
+
+   cd envmoon-playground
+
+   npm install
+
+  npm start
+
+
+Feel free to adjust any parts to better match your specific project details and requirements!
+
+
+
+
+
