@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <Appbar onSignin={() => { }} onSignout={() => { }} />
+      <Appbar/>
 
       <Routes>
 
